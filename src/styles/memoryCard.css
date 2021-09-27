@@ -11,5 +11,11 @@
 }
 
 .clicked {
-  background-color: red;
+  border-style: inset;
+  border-width: 3px;
+  border-color: white;
+}
+
+.grayscale {
+  filter: grayscale(100%)
 }

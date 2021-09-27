@@ -1,16 +1,21 @@
 import MemoryCard from "./MemoryCard";
-import images from '../images/images'
 import '../styles/gameBoard.css'
 import { useEffect, useState } from "react";
 import Modal from "./Modal";
 import useModal from "./useModal";
+import shuffle from "../helpers/shuffle";
 
 export default function GameBoard(props) {
-  const [imagesData, setImagesData] = useState(shuffle(images))
+  const [imagesData, setImagesData] = useState(shuffle(props.currentImages))
   const [isShowingModal, show, hide] = useModal(resetGame);
-  const [isRed, setIsRed] = useState(false);
+  const [wrongClick, setWrongClick] = useState(false);
 
-  useEffect(() => setTimeout(() => setIsRed(false), 300),[isRed])
+  useEffect(() => {
+    resetGame()
+    setImagesData(shuffle(props.currentImages))
+  }, [props.currentImages])
+
+  useEffect(() => setTimeout(() => setWrongClick(false), 300), [wrongClick])
 
   function resetGame() {
     props.resetScore()
@@ -19,7 +24,7 @@ export default function GameBoard(props) {
 
   const handleClick = (flowerName) => {
     if (wasClicked(flowerName)) {
-      setIsRed(true);
+      setWrongClick(true);
       resetAllClicks()
       props.setCurrentScore(0);
     } else {
@@ -29,7 +34,7 @@ export default function GameBoard(props) {
   }
 
   useEffect(() => {
-    if(didPlayerWin()){
+    if (didPlayerWin()) {
       show()
     }
   }, [imagesData])
@@ -70,21 +75,21 @@ export default function GameBoard(props) {
     setImagesData(shuffle(updatedData));
   }
 
-  // fisher/yates shuffle algorithm
-  function shuffle(array) {
-    const newArray = [...array]
-    for (let i = newArray.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
-    }
-    return newArray
-  }
-
   return (
-    <div>
+    <div className={`gameboard-wrapper ${wrongClick ? "danger" : ""}`}>
       <Modal isShowing={isShowingModal} hide={hide} />
-      <div className={`gameboard ${isRed ? "red-background" : ""}`}>
-        {imagesData.map((image, index) => <MemoryCard key={image.name} data={image} handleClick={handleClick} />
+      <div className="gameboard">
+        {imagesData.map((image, index) => {
+          return (
+            <MemoryCard
+              key={image.name}
+              data={image}
+              handleClick={handleClick}
+              showNames={props.showNames}
+              isGrayscale={props.isGrayscale}
+            />
+          )
+        }
         )}
       </div>
     </div>

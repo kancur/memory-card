@@ -1,6 +1,6 @@
 import '../styles/scoreboard.css';
 
-export default function ScoreBoard({score ,...props}) {
+export default function ScoreBoard({ score, ...props }) {
   return (
     <div className="scoreboard">
       <span>Current score: {score.currentScore}</span>

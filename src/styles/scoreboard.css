@@ -1,18 +1,21 @@
 .scoreboard {
+  flex-direction: column;
   display: flex;
   width: fit-content;
-  min-width: 160px;
   margin: auto;
   text-align: left;
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 120px;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .scoreboard span:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 665px) {
+  .scoreboard {
+    order: 2;
+    background-color: #87206c;
+    padding: 10px;
+  }
 }

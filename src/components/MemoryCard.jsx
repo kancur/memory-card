@@ -1,10 +1,33 @@
+import { useEffect, useState } from 'react';
 import '../styles/memoryCard.css'
 
-export default function MemoryCard({data, index, handleClick, ...props}) {
+export default function MemoryCard({ data, index, ...props }) {
+  const [isClicked, setIsClicked] = useState(false);
+
+  function timeout(delay) {
+    return new Promise(res => setTimeout(res, delay));
+  }
+
+  const handleClick = async (name) => {
+    setIsClicked(true);
+    await timeout(100)
+    props.handleClick(data.name);
+  }
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsClicked(false)
+    }, 100)
+
+    return () => {
+      clearTimeout(timer)
+    }
+  }, [isClicked])
+
   return (
-    <div className={`memory-card ${/*data.wasClicked && "clicked"*/ ""}`} onClick={() => handleClick(data.name)}>
-      <img width="180" height="240" src={data.src} alt={data.name}/>
-      <p>{data.name}</p>
+    <div className={`memory-card ${isClicked ? 'clicked' : ''}`} onClick={() => handleClick(data.name)}>
+      <img class={props.isGrayscale && "grayscale"} width="180" height="240" src={data.src} alt={data.name} />
+      {props.showNames && <p>{data.name}</p>}
     </div>
   )
 }

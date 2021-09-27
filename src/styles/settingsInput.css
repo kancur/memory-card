@@ -1,0 +1,50 @@
+.settings-picker {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  user-select: none;
+  gap: 20px;
+}
+
+.settings-picker input[type=range] {
+  width: 150px;
+}
+
+.checkbox-input {
+  display: flex;
+  align-items: center;
+}
+
+.settings-picker .part {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-picker .checkboxes {
+  align-items: flex-end;
+  font-size: 14px;
+}
+
+.settings-picker .checkboxes div:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 968px) {
+  .settings-picker {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  .settings-picker {
+    order: 1
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
