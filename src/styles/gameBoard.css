@@ -1,0 +1,18 @@
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 15px;
+  padding: 20px 10px;
+  justify-content: center;
+  background-color: #e1ccda;
+  transition: background-color 0.05s;
+}
+
+.gameboard::after {
+  content: "";
+  flex: auto;
+}
+
+.red-background {
+  background-color: #f9324e;
+}
