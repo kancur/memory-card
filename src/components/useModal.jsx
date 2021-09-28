@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const useModal = (customCloseHandler) => {
   const [isShowing, setIsShowing] = useState(false);
@@ -12,11 +12,7 @@ const useModal = (customCloseHandler) => {
     customCloseHandler();
   }
 
-  return [
-    isShowing,
-    show,
-    hide
-  ]
+  return [isShowing, show, hide];
 };
 
 export default useModal;

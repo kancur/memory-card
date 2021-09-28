@@ -1,3 +1,4 @@
+import React from 'react';
 import '../styles/header.css'
 import SettingsInputs from './SettingsInputs'
 import ScoreBoard from './ScoreBoard'
