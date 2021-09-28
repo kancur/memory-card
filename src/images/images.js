@@ -10,6 +10,12 @@ import waterLily from './water-lily.jpg';
 import forgetMeNot from './forget-me-not.jpg';
 import jasmine from './jasmine.jpg';
 import alstroemeria from './alstroemeria.jpg';
+import dahlia from './dahlia.jpg';
+import chrysanthemum from './chrysanthemum.jpg';
+import buttercup from './buttercup.jpg';
+import azalea from './azalea.jpg';
+import aster from './aster.jpg';
+import poppy from './poppy.jpg';
 
 const images = [
   { src: marguerite, name: 'marguerite' },
@@ -24,6 +30,12 @@ const images = [
   { src: forgetMeNot, name: 'forget me not' },
   { src: jasmine, name: 'jasmine' },
   { src: alstroemeria, name: 'alstroemeria' },
+  { src: dahlia, name: 'dahlia' },
+  { src: chrysanthemum, name: 'chrysanthemum' },
+  { src: buttercup, name: 'buttercup' },
+  { src: azalea, name: 'azalea' },
+  { src: aster, name: 'aster' },
+  { src: poppy, name: 'poppy' },
 ]
 
 export default images;

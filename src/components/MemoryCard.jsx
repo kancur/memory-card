@@ -26,7 +26,7 @@ export default function MemoryCard({ data, index, ...props }) {
 
   return (
     <div className={`memory-card ${isClicked ? 'clicked' : ''}`} onClick={() => handleClick(data.name)}>
-      <img class={props.isGrayscale && "grayscale"} width="180" height="240" src={data.src} alt={data.name} />
+      <img className={props.isGrayscale ? "grayscale" : null} width="180" height="240" src={data.src} alt={data.name} />
       {props.showNames && <p>{data.name}</p>}
     </div>
   )

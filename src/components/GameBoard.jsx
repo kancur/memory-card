@@ -15,7 +15,7 @@ export default function GameBoard(props) {
     setImagesData(shuffle(props.currentImages))
   }, [props.currentImages])
 
-  useEffect(() => setTimeout(() => setWrongClick(false), 300), [wrongClick])
+  useEffect(() => setTimeout(() => setWrongClick(false), 500), [wrongClick])
 
   function resetGame() {
     props.resetScore()

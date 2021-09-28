@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.785a84a1.chunk.css",
+    "main.js": "/static/js/main.0802f933.chunk.js",
+    "main.js.map": "/static/js/main.0802f933.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d477b12f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d477b12f.js.map",
+    "static/js/2.3c45ff87.chunk.js": "/static/js/2.3c45ff87.chunk.js",
+    "static/js/2.3c45ff87.chunk.js.map": "/static/js/2.3c45ff87.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.785a84a1.chunk.css.map": "/static/css/main.785a84a1.chunk.css.map",
+    "static/js/2.3c45ff87.chunk.js.LICENSE.txt": "/static/js/2.3c45ff87.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Oswald-VariableFont_wght.7aae6336.ttf",
+    "static/media/alstroemeria.1f03efb2.jpg": "/static/media/alstroemeria.1f03efb2.jpg",
+    "static/media/aster.721e86ea.jpg": "/static/media/aster.721e86ea.jpg",
+    "static/media/azalea.b38a261b.jpg": "/static/media/azalea.b38a261b.jpg",
+    "static/media/buttercup.f7e567a2.jpg": "/static/media/buttercup.f7e567a2.jpg",
+    "static/media/chrysanthemum.c0738adb.jpg": "/static/media/chrysanthemum.c0738adb.jpg",
+    "static/media/daffodil.36068a9d.jpg": "/static/media/daffodil.36068a9d.jpg",
+    "static/media/dahlia.e2957cf6.jpg": "/static/media/dahlia.e2957cf6.jpg",
+    "static/media/daisy.ceab110f.jpg": "/static/media/daisy.ceab110f.jpg",
+    "static/media/forget-me-not.8485c5ec.jpg": "/static/media/forget-me-not.8485c5ec.jpg",
+    "static/media/gerbera.fc604790.jpg": "/static/media/gerbera.fc604790.jpg",
+    "static/media/jasmine.22bbb7fe.jpg": "/static/media/jasmine.22bbb7fe.jpg",
+    "static/media/marguerite.c40d09b9.jpg": "/static/media/marguerite.c40d09b9.jpg",
+    "static/media/marigold.dad571d4.jpg": "/static/media/marigold.dad571d4.jpg",
+    "static/media/pink-rose.1cf453da.jpg": "/static/media/pink-rose.1cf453da.jpg",
+    "static/media/poppy.342b20ac.jpg": "/static/media/poppy.342b20ac.jpg",
+    "static/media/sunflower.a4c5e57d.jpg": "/static/media/sunflower.a4c5e57d.jpg",
+    "static/media/tulip.2cdb520f.jpg": "/static/media/tulip.2cdb520f.jpg",
+    "static/media/water-lily.1ddfeb73.jpg": "/static/media/water-lily.1ddfeb73.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d477b12f.js",
+    "static/js/2.3c45ff87.chunk.js",
+    "static/css/main.785a84a1.chunk.css",
+    "static/js/main.0802f933.chunk.js"
+  ]
+}

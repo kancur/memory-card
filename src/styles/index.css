@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Oswald';
+  src: local('Font'), url(../fonts/Oswald-VariableFont_wght.ttf) format('truetype');
+}
+
 body {
   min-height: 100vh;
   margin: 0;

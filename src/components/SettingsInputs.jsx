@@ -31,7 +31,7 @@ export default function DifficultyPicker(props) {
 
       </div>
       <div className="part checkboxes">
-        <div class="checkbox-input">
+        <div className="checkbox-input">
           <label htmlFor="showNames">Show flower names</label>
           <input
             type="checkbox"
@@ -41,7 +41,7 @@ export default function DifficultyPicker(props) {
           />
         </div>
 
-        <div class="checkbox-input">
+        <div className="checkbox-input">
           <label htmlFor="grayscale">Grayscale images</label>
           <input
             type="checkbox"

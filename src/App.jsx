@@ -1,10 +1,7 @@
-import logo from './logo.svg';
 import GameBoard from './components/GameBoard';
 import { Fragment } from 'react/cjs/react.production.min';
 import Header from './components/Header';
 import React, { useEffect, useState } from 'react';
-import Modal from './components/Modal';
-import shuffle from './helpers/shuffle';
 import getRandomElements from './helpers/getRandomElements';
 import images from './images/images';
 
