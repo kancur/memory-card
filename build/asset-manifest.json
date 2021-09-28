@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/memory-card/static/css/main.190e4d7a.chunk.css",
-    "main.js": "/memory-card/static/js/main.0802f933.chunk.js",
-    "main.js.map": "/memory-card/static/js/main.0802f933.chunk.js.map",
+    "main.js": "/memory-card/static/js/main.c804a84d.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.c804a84d.chunk.js.map",
     "runtime-main.js": "/memory-card/static/js/runtime-main.73480ed4.js",
     "runtime-main.js.map": "/memory-card/static/js/runtime-main.73480ed4.js.map",
-    "static/js/2.3c45ff87.chunk.js": "/memory-card/static/js/2.3c45ff87.chunk.js",
-    "static/js/2.3c45ff87.chunk.js.map": "/memory-card/static/js/2.3c45ff87.chunk.js.map",
+    "static/js/2.4830b3a6.chunk.js": "/memory-card/static/js/2.4830b3a6.chunk.js",
+    "static/js/2.4830b3a6.chunk.js.map": "/memory-card/static/js/2.4830b3a6.chunk.js.map",
     "index.html": "/memory-card/index.html",
     "static/css/main.190e4d7a.chunk.css.map": "/memory-card/static/css/main.190e4d7a.chunk.css.map",
-    "static/js/2.3c45ff87.chunk.js.LICENSE.txt": "/memory-card/static/js/2.3c45ff87.chunk.js.LICENSE.txt",
+    "static/js/2.4830b3a6.chunk.js.LICENSE.txt": "/memory-card/static/js/2.4830b3a6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/memory-card/static/media/Oswald-VariableFont_wght.7aae6336.ttf",
     "static/media/alstroemeria.1f03efb2.jpg": "/memory-card/static/media/alstroemeria.1f03efb2.jpg",
     "static/media/aster.721e86ea.jpg": "/memory-card/static/media/aster.721e86ea.jpg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.73480ed4.js",
-    "static/js/2.3c45ff87.chunk.js",
+    "static/js/2.4830b3a6.chunk.js",
     "static/css/main.190e4d7a.chunk.css",
-    "static/js/main.0802f933.chunk.js"
+    "static/js/main.c804a84d.chunk.js"
   ]
 }
