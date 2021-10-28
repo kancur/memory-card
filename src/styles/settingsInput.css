@@ -30,7 +30,7 @@
   margin-bottom: 3px;
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1050px) {
   .settings-picker {
     flex-direction: column;
     gap: 20px;
