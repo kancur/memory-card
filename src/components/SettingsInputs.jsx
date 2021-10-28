@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import images from "../images/images";
 import "../styles/settingsInput.css";
 
-export default function DifficultyPicker(props) {
+export default function SettingsInput(props) {
   const [imageCount, setImageCount] = useState(8);
 
   const handleDifficultyChange = (e) => {
