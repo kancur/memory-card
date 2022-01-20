@@ -6,7 +6,7 @@ Done as a part of The Odin Project curriculum. ([assignment](https://www.theodin
 [:link: Memory Game](https://kancur.github.io/memory-card/)
 
 ## How to play
-:arrow_right:	**One simple rule:** Click on all images but don't click on the same image twice!
+:arrow_right:	**One simple rule:** Click on all images but don't click on the same image twice in a row!
 
 :warning: **Best played on bigger screens due to nature of the game**
 
